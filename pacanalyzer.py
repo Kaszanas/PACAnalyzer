@@ -4,7 +4,7 @@ Date Created: 2015/01/11
 Other Contributors:
 Date Modified: 2015/01/12
 Purpose: Plugin for SC2Reader
-    (https://github.com/GraylinKim/sc2reader)
+    (https://github.com/ggtracker/sc2reader)
     to Generate PAC stats from SC2 Replay based
     on SkillCraft project research done by Mark Blair, Ph.D. and the Simon Fraser University Cognitive Science Lab
 Simon Fraser University Cognitive Science Lab URL: http://cslab-sfu.ca/

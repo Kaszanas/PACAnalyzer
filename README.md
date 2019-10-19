@@ -1,6 +1,6 @@
 # PACAnalyzer [![Join the chat at https://gitter.im/Reithan/PACAnalyzer](https://badges.gitter.im/Reithan/PACAnalyzer.svg)](https://gitter.im/Reithan/PACAnalyzer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 #### By Bryan O'Malley (bo122081@hotmail.com)
-Perception-Action Cycle analysis plugin for SC2Reader (https://github.com/GraylinKim/sc2reader)
+Perception-Action Cycle analysis plugin for SC2Reader (https://github.com/ggtracker/sc2reader)
 
 This plugin is built based on the work of Mark Blair, Ph.D, 
 and the Simon Fraser University Cognitive Science Lab (http://cslab-sfu.ca) on the SkillCraft project. You can find their project website at:
