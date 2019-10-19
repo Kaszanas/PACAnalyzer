@@ -1,7 +1,7 @@
 """
 Author: Bryan O'Malley (bo122081@hotmail.com)
 Date Created: 2015/01/11
-Other Contributors:
+Other Contributors: Andrzej Białecki
 Date Modified: 2015/01/12
 Purpose: Plugin for SC2Reader
     (https://github.com/ggtracker/sc2reader)
