@@ -15,15 +15,20 @@ from __future__ import absolute_import, print_function, unicode_literals, divisi
 
 from collections import defaultdict
 
-
 class PAC:
     def __init__(self, frame, x, y):
+        """
+        Empty docstring
+        """
         self.min, self.max = [x, y], [x, y]
         self.cameras = [[frame, x, y]]
         self.actions = []
 
 class PACInfo:
     def __init__(self, disp, dur):
+        """
+        Empty docstring
+        """
         self.DispThreshold = disp
         self.DurThreshold = dur
 
@@ -34,7 +39,8 @@ class PACAnalyzer(object):
     name = 'PACAnalyzer'
 
     def handleInitGame(self, event, replay):
-        """ Might not use PAC Grid calculation
+        """
+        Might not use PAC Grid calculation
         # Connect and load map for PAC grid calculations
         if not replay.map:
             replay.load_map()
@@ -45,6 +51,9 @@ class PACAnalyzer(object):
             human.PACList = None
 
     def handleCameraEvent(self, event, replay):
+        """
+        Empty docstring
+        """
         if not event.player.PACList:
             event.player.PACList = [PAC(event.frame, event.x, event.y)]
         else:
@@ -78,18 +87,30 @@ class PACAnalyzer(object):
 
 
     def handleControlGroupEvent(self, event, replay):
+        """
+        Empty docstring
+        """
         if event.player.PACList:
             event.player.PACList[-1].actions.append(event.frame)
 
     def handleSelectionEvent(self, event, replay):
+        """
+        Empty docstring
+        """
         if event.player.PACList:
             event.player.PACList[-1].actions.append(event.frame)
 
     def handleCommandEvent(self, event, replay):
+        """
+        Empty docstring
+        """
         if event.player.PACList:
             event.player.PACList[-1].actions.append(event.frame)
 
     def handleEndGame(self, event, replay):
+        """
+        Empty docstring
+        """
         for human in replay.humans:
             if human.PACList:
                 if len(human.PACList[-1].actions) == 0:

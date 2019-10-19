@@ -14,10 +14,11 @@ sc2reader.engine.register_plugin(PACAnalyzer())
 
 def printReplay(filepath:str, analysis:dict, arguments):
     """
-    Prints summary information about SC2 replay file
+    Prints summary information about SC2 replay file or collection of files.
+
     filepath (str) - path to the file.
     analysis (dict) - dictionary holding information on players.
-    arguments (parser.parse_args()) - object containing arguments for further processing.
+    arguments (object parser.parse_args()) - object containing arguments for further processing.
     """
 
     replay = sc2reader.load_replay(filepath, debug=True)
